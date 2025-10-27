@@ -1,13 +1,13 @@
 {% set name = "czekitout" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/czekitout-{{ version }}.tar.gz
-  sha256: 848e8a2a3d774a73fcf7b8d001e6cf15bd0a348c76ac8c6bb4c13e46a929ec43
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/czekitout-{{ version }}.tar.gz
+  sha256: 867781b14dda7f6317f29d580216b60e1adf235d0613a0a5a08b6ea2b6af3302
 
 build:
   noarch: python
